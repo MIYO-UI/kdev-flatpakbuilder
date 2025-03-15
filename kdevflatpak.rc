@@ -1,0 +1,22 @@
+<!DOCTYPE kpartgui>
+<kpartgui name="kdevflatpakbuilder" version="1">
+    <MenuBar>
+        <Menu name="project">
+            <Menu name="flatpak" group="project_actions">
+                <text context="@title:menu">Flatpak</text>
+                <Action name="flatpak_build" text="Build Flatpak" icon="flatpak-build" />
+                <Action name="flatpak_install" text="Install Flatpak" icon="flatpak-install" />
+                <Action name="flatpak_export_bundle" text="Export Bundle" icon="flatpak-export" />
+                <Separator />
+                <Action name="flatpak_create_manifest" text="Create Manifest" icon="document-new" />
+                <Action name="flatpak_edit_manifest" text="Edit Manifest" icon="document-edit" />
+            </Menu>
+        </Menu>
+    </MenuBar>
+    
+    <ToolBar name="buildToolBar">
+        <text context="@title:menu">Flatpak Builder Toolbar</text>
+        <Action name="flatpak_build" />
+        <Action name="flatpak_install" />
+    </ToolBar>
+</kpartgui>

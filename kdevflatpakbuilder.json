@@ -1,0 +1,30 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "twój@email.com",
+                "Name": "Twoje Imię",
+                "Name[pl]": "Twoje Imię"
+            }
+        ],
+        "Category": "Project Management",
+        "Description": "KDevelop plugin for building Flatpak packages",
+        "Description[pl]": "Wtyczka KDevelop do budowania pakietów Flatpak",
+        "Icon": "application-x-flatpak",
+        "Id": "kdevflatpakbuilder",
+        "License": "GPL",
+        "Name": "Flatpak Builder",
+        "Name[pl]": "Budowniczy Flatpak",
+        "ServiceTypes": [
+            "KDevelop/Plugin"
+        ]
+    },
+    "X-KDevelop-Category": "Project",
+    "X-KDevelop-IRequired": [
+        "org.kdevelop.IProjectBuilder"
+    ],
+    "X-KDevelop-Interfaces": [
+        "org.kdevelop.IProjectBuilder"
+    ],
+    "X-KDevelop-Mode": "GUI"
+}

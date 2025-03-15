@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Service
+Name=Flatpak Builder
+Name[pl]=Budowniczy Flatpak
+Comment=KDevelop plugin for building Flatpak packages
+Comment[pl]=Wtyczka KDevelop do budowania pakietów Flatpak
+Icon=application-x-flatpak
+X-KDE-Library=kdevflatpakbuilder
+X-KDE-PluginInfo-Name=kdevflatpakbuilder
+X-KDE-PluginInfo-Author=Your Name
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-Category=Project Management
+X-KDevelop-Category=Project
+X-KDevelop-Version=@KDEV_PLUGIN_VERSION@
+X-KDevelop-Interfaces=org.kdevelop.IProjectBuilder
