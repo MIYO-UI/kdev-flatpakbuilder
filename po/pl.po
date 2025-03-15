@@ -1,0 +1,166 @@
+# Polish translations for kdev-flatpakbuilder package.
+# Copyright (C) 2025 This file is copyright:
+# This file is distributed under the same license as the kdev-flatpakbuilder package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kdev-flatpakbuilder\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-03-15 10:00+0100\n"
+"PO-Revision-Date: 2025-03-15 10:00+0100\n"
+"Last-Translator: Twoje Imię <twój@email.com>\n"
+"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 23.08.4\n"
+
+#: src/flatpakbuilderplugin.cpp:46
+msgid "Flatpak Builder"
+msgstr "Budowniczy Flatpak"
+
+#: src/flatpakbuilderplugin.cpp:57
+msgid "Build Flatpak"
+msgstr "Zbuduj Flatpak"
+
+#: src/flatpakbuilderplugin.cpp:62
+msgid "Install Flatpak"
+msgstr "Zainstaluj Flatpak"
+
+#: src/flatpakbuilderplugin.cpp:67
+msgid "Export Bundle"
+msgstr "Eksportuj pakiet"
+
+#: src/flatpakbuilderplugin.cpp:72
+msgid "Create Manifest"
+msgstr "Utwórz manifest"
+
+#: src/flatpakbuilderplugin.cpp:77
+msgid "Edit Manifest"
+msgstr "Edytuj manifest"
+
+#: src/flatpakbuilderplugin.cpp:106
+msgid "Could not find Flatpak manifest file for this project."
+msgstr "Nie można znaleźć pliku manifestu Flatpak dla tego projektu."
+
+#: src/flatpakbuilderplugin.cpp:123
+msgid "No Flatpak manifest found for this project. Would you like to create one?"
+msgstr "Nie znaleziono manifestu Flatpak dla tego projektu. Czy chcesz utworzyć nowy?"
+
+#: src/flatpakbuilderplugin.cpp:146
+msgid "No Flatpak manifest found for this project. Build the project first."
+msgstr "Nie znaleziono manifestu Flatpak dla tego projektu. Najpierw zbuduj projekt."
+
+#: src/flatpakbuilderplugin.cpp:165
+msgid "No Flatpak manifest found for this project. Build the project first."
+msgstr "Nie znaleziono manifestu Flatpak dla tego projektu. Najpierw zbuduj projekt."
+
+#: src/flatpakmanifestmanager.cpp:112
+msgid "Manifest Flatpak already exists for this project. Do you want to create a new one?"
+msgstr "Manifest Flatpak już istnieje dla tego projektu. Czy chcesz utworzyć nowy?"
+
+#: src/flatpakmanifestmanager.cpp:126
+msgid "Could not create manifest file: %1"
+msgstr "Nie można utworzyć pliku manifestu: %1"
+
+#: src/flatpakbuilderjob.cpp:40
+msgid "Flatpak Build: %1"
+msgstr "Budowanie Flatpak: %1"
+
+#: src/flatpakbuilderjob.cpp:43
+msgid "Flatpak Install: %1"
+msgstr "Instalacja Flatpak: %1"
+
+#: src/flatpakbuilderjob.cpp:46
+msgid "Flatpak Export: %1"
+msgstr "Eksport Flatpak: %1"
+
+#: src/flatpakbuilderjob.cpp:95
+msgid "Invalid manifest path: %1"
+msgstr "Nieprawidłowa ścieżka manifestu: %1"
+
+#: src/flatpakbuilderjob.cpp:104
+msgid "Could not create build directory: %1"
+msgstr "Nie można utworzyć katalogu budowania: %1"
+
+#: src/flatpakbuilderjob.cpp:113
+msgid "flatpak-builder not found. Please install flatpak-builder package."
+msgstr "Nie znaleziono flatpak-builder. Zainstaluj pakiet flatpak-builder."
+
+#: src/flatpakbuilderjob.cpp:120
+msgid "flatpak not found. Please install flatpak package."
+msgstr "Nie znaleziono flatpak. Zainstaluj pakiet flatpak."
+
+#: src/flatpakbuilderjob.cpp:172
+msgid "Process exited with code %1"
+msgstr "Proces zakończył się z kodem %1"
+
+#: src/flatpakbuilderjob.cpp:178
+msgid "Flatpak successfully built."
+msgstr "Flatpak został pomyślnie zbudowany."
+
+#: src/flatpakbuilderjob.cpp:182
+msgid "Flatpak successfully installed."
+msgstr "Flatpak został pomyślnie zainstalowany."
+
+#: src/flatpakbuilderjob.cpp:186
+msgid "Flatpak successfully exported to bundle."
+msgstr "Flatpak został pomyślnie wyeksportowany do pakietu."
+
+#: src/ui/flatpakbuilderconfigwidget.cpp:83
+msgid "Select flatpak-builder executable"
+msgstr "Wybierz plik wykonawczy flatpak-builder"
+
+#: src/ui/flatpakbuilderconfigwidget.cpp:85
+msgid "All Files (*)"
+msgstr "Wszystkie pliki (*)"
+
+#: src/ui/flatpakbuilderconfigwidget.cpp:95
+msgid "Select flatpak executable"
+msgstr "Wybierz plik wykonawczy flatpak"
+
+#: src/ui/flatpakbuilderconfigwidget.cpp:105
+msgid "Select build directory"
+msgstr "Wybierz katalog budowania"
+
+#: src/ui/flatpakbuilderconfigwidget.ui:18
+msgid "Flatpak Builder Settings"
+msgstr "Ustawienia Budowniczego Flatpak"
+
+#: src/ui/flatpakbuilderconfigwidget.ui:27
+msgid "Flatpak Tools"
+msgstr "Narzędzia Flatpak"
+
+#: src/ui/flatpakbuilderconfigwidget.ui:33
+msgid "flatpak-builder path:"
+msgstr "Ścieżka do flatpak-builder:"
+
+#: src/ui/flatpakbuilderconfigwidget.ui:43
+msgid "Browse..."
+msgstr "Przeglądaj..."
+
+#: src/ui/flatpakbuilderconfigwidget.ui:50
+msgid "flatpak path:"
+msgstr "Ścieżka do flatpak:"
+
+#: src/ui/flatpakbuilderconfigwidget.ui:67
+msgid "Build Settings"
+msgstr "Ustawienia budowania"
+
+#: src/ui/flatpakbuilderconfigwidget.ui:73
+msgid "Default build directory:"
+msgstr "Domyślny katalog budowania:"
+
+#: src/ui/flatpakbuilderconfigwidget.ui:90
+msgid "Documentation"
+msgstr "Dokumentacja"
+
+#: src/ui/flatpakbuilderconfigwidget.ui:96
+msgid "Flatpak Builder is a tool for building Flatpak applications."
+msgstr "Flatpak Builder to narzędzie do budowania aplikacji Flatpak."
+
+#: src/ui/flatpakbuilderconfigwidget.ui:103
+msgid "For more information about Flatpak, visit:"
+msgstr "Więcej informacji o Flatpak można znaleźć na stronie:"
